@@ -1,0 +1,2 @@
+# gbot
+ SWTOR Bot
