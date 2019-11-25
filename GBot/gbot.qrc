@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="GBot">
+    <file>Resources/gbotskin.png</file>
+    <file>Resources/gbotHud.png</file>
+    <file>Resources/sithicon.png</file>
+    <file>Resources/bantha.png</file>
+    <file>Resources/playerhud.png</file>
+    <file>Resources/player.png</file>
+    <file>Resources/Mob.png</file>
+    <file>Resources/Pg.png</file>
+    <file>Resources/Looking.png</file>
+    <file>Resources/LookIncon.PNG</file>
+    <file>Resources/gbot.png</file>
+    <file>Resources/target.png</file>
+    <file>Resources/RadarHud2.png</file>
+  </qresource>
+</RCC>

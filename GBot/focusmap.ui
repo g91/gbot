@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FocusMapClass</class>
+ <widget class="QDialog" name="FocusMapClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>467</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FocusMap</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="FocusMapGraphicsView" name="MapGraphicsView">
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/GBot/Resources/RadarHud2.png);</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
+     </property>
+     <property name="renderHints">
+      <set>QPainter::Antialiasing</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>FocusMapGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header>focusmapviews.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="gbot.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>xRightSlot()</slot>
+  <slot>xLeftSlot()</slot>
+  <slot>yRightSlot()</slot>
+  <slot>yUpperSlot()</slot>
+  <slot>sizePlusSlot()</slot>
+  <slot>sizeMinusSlot()</slot>
+  <slot>showAllysSlot()</slot>
+  <slot>yBottomSlot()</slot>
+ </slots>
+</ui>
